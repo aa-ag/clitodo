@@ -5,3 +5,10 @@ Creating a To-do app using Python & [Typer](Because the class shows a version of
 In class, the project is broken down into 12 sections, and it's more of an article than a follow along class;  here, you will only find the relevant scripts to make the app run.
 
 Because the class shows a version of this project with several dependencies, a virtual env was created: `conda activate clitodo`
+
+### dependencies
+
+- `typer==0.3.2`
+- `colorama==0.4.4`
+- `shellingham==1.4.0`
+- `pytest=6.2.4`
