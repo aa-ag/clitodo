@@ -12,3 +12,21 @@ Because the class shows a version of this project with several dependencies, a v
 - `colorama==0.4.4`
 - `shellingham==1.4.0`
 - `pytest=6.2.4`
+
+### file structure
+
+```
+clitodo
+├── README.md
+├── requirenmets.txt
+├── tests
+│   ├── __init__.py
+│   └── test_todo.py
+└── todoapp
+    ├── __init__.py
+    ├── __main__.py
+    ├── cli.py
+    ├── config.py
+    ├── database.py
+    └── todo.py
+```
