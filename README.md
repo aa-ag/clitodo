@@ -8,7 +8,7 @@ Because the class shows a version of this project with several dependencies, a v
 
 ### dependencies
 
-- `typer==0.3.2`
+- `typer==0.3.2` `conda install -c conda-forge typer`
 - `colorama==0.4.4`
 - `shellingham==1.4.0`
 - `pytest=6.2.4`
