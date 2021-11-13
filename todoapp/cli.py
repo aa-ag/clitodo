@@ -3,7 +3,7 @@
 
 from typing import Optional
 import typer
-from todo import __app_name__, __version__
+from todoapp import __app_name__, __version__
 
 app = typer.Typer()
 
