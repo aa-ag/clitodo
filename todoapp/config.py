@@ -35,3 +35,14 @@ def _init_config_file() -> int:
     except OSError:
         return FILE_ERROR
     return SUCCESS
+
+
+def _create_database(db_path: str) -> int:
+    config_parser = configparser.ConfigParser()
+    config_parser["General"] = {"database": db_path}
+    try:
+        with CONFIG_FILE_PATH.open("w") as file:
+            config_parser.write(file)
+    except OSError:
+        return DB_WRITE_ERROR
+    return SUCCESS
