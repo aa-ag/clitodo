@@ -2,8 +2,8 @@
 settings
 settings.py
 
-config
-config.py
+# config
+# config.py
 
 # node_modules / blogify
 node_modules
